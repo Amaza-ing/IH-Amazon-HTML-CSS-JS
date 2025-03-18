@@ -2,6 +2,31 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 14px;
+}
+
+.banner {
+  background-color: lightblue;
+  width: 80vw;
+  height: 200px;
+  font-size: 10px;
+
+  .box-child {
+    background-color: #202020;
+    width: 30%;
+    height: 40px;
+  }
+
+  .text {
+    font-size: 1.5rem;
+  }
+
+  .text2 {
+    font-size: 1.5em;
+  }
+}
+
 .box {
   width: 200px;
   height: 200px;

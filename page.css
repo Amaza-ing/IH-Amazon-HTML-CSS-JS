@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: darkblue;
+  color: white;
+  padding: 20px;
+
+  .title {
+    text-align: center;
+    margin: 0;
+  }
+
+  .nav-list {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+    .link {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
