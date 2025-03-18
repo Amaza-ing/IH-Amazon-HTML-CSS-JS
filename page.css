@@ -25,11 +25,34 @@ ul {
   .nav-list {
     margin-top: 20px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 
     .link {
       color: white;
       text-decoration: none;
     }
+  }
+}
+
+.section {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+@media (min-width: 400px) {
+  .header {
+    .nav-list {
+      flex-direction: row;
+      align-items: start;
+      gap: 0;
+      justify-content: space-around;
+    }
+  }
+
+  .section {
+    text-align: left;
+    margin-bottom: 20px;
   }
 }

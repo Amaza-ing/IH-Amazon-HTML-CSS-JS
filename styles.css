@@ -9,7 +9,7 @@ html {
 .banner {
   background-color: lightblue;
   width: 80vw;
-  height: 200px;
+  height: 300px;
   font-size: 10px;
 
   .box-child {
@@ -116,5 +116,17 @@ div {
   p {
     background-color: lightgray;
     color: #202020;
+  }
+}
+
+@media (min-width: 600px) {
+  .banner {
+    background-color: red;
+  }
+}
+
+@media (min-width: 900px) {
+  .banner {
+    background-color: blue;
   }
 }
