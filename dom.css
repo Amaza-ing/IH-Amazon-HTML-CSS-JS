@@ -1,0 +1,17 @@
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.list {
+  list-style: armenian;
+  font-size: 20px;
+}
+
+.blue {
+  color: blue;
+}
+
+#red {
+  color: red;
+}
