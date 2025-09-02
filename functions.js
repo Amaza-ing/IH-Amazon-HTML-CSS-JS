@@ -31,11 +31,11 @@ console.log(multiplyResult);
 
 
 
-const substract = function(n1, n2) {
+const subtract = function(n1, n2) {
   return n1 - n2;
 }
 
-console.log(substract(10, 7));
+console.log(subtract(10, 7));
 
 
 
