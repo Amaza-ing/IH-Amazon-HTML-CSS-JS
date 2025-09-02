@@ -47,6 +47,9 @@ if (myCondition) {
 
 const password = "";
 
+console.log(password.length);
+console.log(!password.length);
+
 if (!password.length) {
   console.log("La contraseña no puede estar vacía");  
 }
